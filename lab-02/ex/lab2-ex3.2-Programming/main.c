@@ -6,13 +6,6 @@
 
 int main(int argc, char *argv[])
 {
-    // printf("%d\n", argc);
-    // for (int i=0;i<argc;i++) printf("%s\n", argv[i]);
-
-    // int pos = find_sub_string("import React from 'react';", "react");
-    // printf("%d\n", pos);
-
-
     char * grep;
     if (argc == 1) puts("Not have grep");
     else strcpy(grep, argv[1]);
@@ -22,7 +15,7 @@ int main(int argc, char *argv[])
     int bufsize = 1024;
     int lines = 0, cnt = 0;
 
-    // char *s = "asdfasdf";
+    // char *s = "2121221454";
     // printf("%s\n", s);
 
     for (;;) {

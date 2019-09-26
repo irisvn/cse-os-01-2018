@@ -1,0 +1,92 @@
+Hello! Duc
+
+
+System Information
+
+Kernel name		: Linux
+Kernel release	: 4.4.0-18362-Microsoft
+Kernel version	: #1-Microsoft Mon Mar 18 12:02:00 PST 2019
+Machine			: x86_64
+Processor		: x86_64
+Hardware		: x86_64
+Operator 		: GNU/Linux
+
+
+
+Current user: ducdo
+
+Current time: Thu Sep 26 23:06:59 +07 2019
+
+
+Memory:
+
+              total        used        free      shared  buff/cache   available
+Mem:       12435076     4831516     7374208       17720      229352     7469828
+Swap:      15916668           0    15916668
+
+Disk space:
+
+Filesystem      Size  Used Avail Use% Mounted on
+rootfs          122G   53G   70G  43% /
+none            122G   53G   70G  43% /dev
+none            122G   53G   70G  43% /run
+none            122G   53G   70G  43% /run/lock
+none            122G   53G   70G  43% /run/shm
+none            122G   53G   70G  43% /run/user
+cgroup          122G   53G   70G  43% /sys/fs/cgroup
+C:\             122G   53G   70G  43% /mnt/c
+D:\              56G  8.0G   48G  15% /mnt/d
+E:\             106G   61G   45G  58% /mnt/e
+F:\              47G   17G   31G  36% /mnt/f
+
+Network:
+
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.140  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::58e6:16:a7c:2510  prefixlen 64  scopeid 0xfd<compat,link,site,host>
+        ether 54:e1:ad:06:9b:88  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.56.1  netmask 255.255.255.0  broadcast 192.168.56.255
+        inet6 fe80::d8d9:e35:330:2995  prefixlen 64  scopeid 0xfd<compat,link,site,host>
+        ether 0a:00:27:00:00:06  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 1500
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0xfe<compat,link,site,host>
+        loop  (Local Loopback)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+CPU information
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              4
+On-line CPU(s) list: 0-3
+Thread(s) per core:  2
+Core(s) per socket:  2
+Socket(s):           1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               78
+Model name:          Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+Stepping:            3
+CPU MHz:             2496.000
+CPU max MHz:         2496.0000
+BogoMIPS:            4992.00
+Virtualization:      VT-x
+Hypervisor vendor:   Windows Subsystem for Linux
+Virtualization type: container
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave osxsave avx f16c rdrand lahf_lm abm 3dnowprefetch fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt intel_pt ibrs ibpb stibp ssbd

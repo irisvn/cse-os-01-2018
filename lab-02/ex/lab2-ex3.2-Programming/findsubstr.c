@@ -5,13 +5,13 @@ int find_sub_string(const char *str, const char *sub)
     int n = strlen(str);
     int m = strlen(sub);
     if (n < m) return -1;
-    for (int l = 0; l < n - m + 1; l++) {
-        int i = 0;
-        for (; i < m; i++) {
-            int  r = l + i;
-            if (str[r] != sub[i]) break;
+    for (int i = 0; i < n - m + 1; i++) {
+        int j = 0;
+        for (j; j < m; j++) {
+            int  s = i + j;
+            if (str[s] != sub[j]) break;
         }
-        if (i == m) return l;
+        if (j == m) return i;
     }
     return -1;
 }
